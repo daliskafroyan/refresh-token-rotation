@@ -24,13 +24,13 @@ A common method of authentication is [Refresh Token Rotation](https://auth0.com/
 Clone the project
 
 ```bash
-  git clone https://link-to-project
+  git clone https://github.com/daliskafroyan/refresh-token-rotation.git
 ```
 
 Go to the project directory
 
 ```bash
-  cd my-project
+  cd refresh-token-rotation
 ```
 
 Install dependencies
