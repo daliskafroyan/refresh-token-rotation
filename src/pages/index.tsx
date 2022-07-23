@@ -84,7 +84,6 @@ export default function HomePage() {
 
   const [codeChallenge, setCodeChallenge] = useState<string>();
   const [codeVerifier, setCodeVerifier] = useState<string>();
-  const [state, setState] = useState<string>();
 
   const {
     auth,
@@ -133,7 +132,6 @@ export default function HomePage() {
     const [code_challenge, code_verifier, state] = generateCode();
     setCodeChallenge(await code_challenge);
     setCodeVerifier(await code_verifier);
-    setState(await state);
 
     setCodeVeriefierToCookie(await state, await code_verifier);
 
